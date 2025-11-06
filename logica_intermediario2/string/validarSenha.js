@@ -17,3 +17,8 @@ function validarSenha(string, limite) {
 }
 
 console.log(validarSenha("123asd12d", 8));
+
+//O método .some() é uma função de array em JavaScript que verifica se pelo menos um elemento do array satisfaz uma condição. Se encontrar um único elemento que retorne true, ele para e retorna true. Se nenhum satisfizer, retorna false.
+////No código acima, usamos .some() para verificar se a senha contém pelo menos um número, uma letra maiúscula e um símbolo especial.
+//A função validarSenha recebe uma string (senha) e um limite mínimo de caracteres.
+//Ela verifica se a senha atende aos critérios de força e retorna um objeto com os resultados das verificações.
